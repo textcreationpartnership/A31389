@@ -1,0 +1,571 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tunbrigialia P.C. merc. Lond. ad G.F.</title>
+            <author>Causton, Peter.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1686</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 21 KB of XML-encoded text transcribed from 7 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A31389</idno>
+            <idno type="STC">Wing C1553</idno>
+            <idno type="STC">ESTC R37538</idno>
+            <idno type="EEBO-CITATION">16968495</idno>
+            <idno type="OCLC">ocm 16968495</idno>
+            <idno type="VID">105550</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A31389)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 105550)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1611:27)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Tunbrigialia P.C. merc. Lond. ad G.F.</title>
+                  <author>Causton, Peter.</author>
+               </titleStmt>
+               <extent>[2], 10 p.   </extent>
+               <publicationStmt>
+                  <publisher>Typis J. Richardson,</publisher>
+                  <pubPlace>Londini :</pubPlace>
+                  <date>MDCLXXXVI [1686]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>"Imprimatur, Januarii 10, 1686. R.M."</note>
+                  <note>Reproduction of original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="lat">lat</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Tunbridge Wells (England) --  Poetry.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-11</date>
+            <label>Kayla Ondracek</label>Sampled and proofread</change>
+         <change>
+            <date>2009-11</date>
+            <label>Kayla Ondracek</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="lat">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:105550:1" rendition="simple:additions"/>
+            <p>TUNBRIGIALIA</p>
+            <p>P. C. Merc. Lond.</p>
+            <p>Ad G. F.</p>
+            <q>
+               <floatingText xml:lang="lat">
+                  <body>
+                     <div type="imprimatur">
+                        <p>Imprimatur,</p>
+                        <closer>
+                           <dateline>
+                              <date>
+                                 <hi>Januarii,</hi> 10. 1686.</date>
+                           </dateline> 
+                           <signed>R.M.</signed>
+                        </closer>
+                     </div>
+                  </body>
+               </floatingText>
+            </q>
+            <p>
+               <hi>LONDINI,</hi> Typis <hi>J. Richardſon,</hi> MDCLXXXVI.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:105550:2"/>
+            <head>P. C. <hi>Hydropotis</hi> Tunbrigienſibus <hi>Philomuſis</hi>
+            </head>
+            <opener>
+               <salute>Salutem.</salute>
+            </opener>
+            <p>
+               <hi>V. Cl.</hi> Quum hiſce, Deo favente, aquis, ſanitatem a<g ref="char:EOLhyphen"/>miſſam receperim, <hi>Tunbrigialia,</hi> gratitudinis er<g ref="char:EOLhyphen"/>go, canenda duxi, datâ occaſione a carmine latino ad me apud Fontem bibentem a doctiſſimo viro <hi>G. F.</hi> miſſo, quo vitae a nobis actae rationem exigit. Illa, publici juris, ami<g ref="char:EOLhyphen"/>corum ſolicitatio fecit. Sed vix prodierant, quin e vobis nonnulli malè ſecum agi clamitarint, quòd veſtrum tam celebre Mercatum non attigerim: et erant qui me nimii erga Chartas ludicras amoris inſimularent, quod, quum aleae abuſum perſtrinxerim, Chartarum, ſilentio praeterie<g ref="char:EOLhyphen"/>rim: culparunt alii, quòd debitam Deo Fontique gratiam non retulerim: adeò omnibus placere arduum eſt. His ut contumeliis obviam irem, novâ editione, &amp; Deo Fon<g ref="char:EOLhyphen"/>tique gratiam referre, &amp; Mercatum celebrare, &amp; Char<g ref="char:EOLhyphen"/>tarum abuſum damnare neceſſum habui. Verſus ea prop<g ref="char:EOLhyphen"/>ter additos hae indicant notae. Relatam gratiam ☞. Mercatum *. Chartarum abuſum †. Haec qualiacun<g ref="char:EOLhyphen"/>que vobis forſan voluptati fuerint: ſin minus, ſaltem, vo<g ref="char:EOLhyphen"/>tivae inſtar tabulae, meam, ob ſanitatem reſtitutam, teſta<g ref="char:EOLhyphen"/>buntur gratitudinem.</p>
+            <closer>
+               <salute>Valete.</salute> 
+               <dateline>
+                  <date>
+                     <hi>Calendis Januarii, 1686.</hi>
+                  </date>
+               </dateline>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb n="1" facs="tcp:105550:2"/>
+            <head>TUNBRIGIALIA <hi>P. C.</hi> Merc. Lond. Ad G. F.</head>
+            <p>
+               <hi>Editio altera priori longè auctior.</hi>
+            </p>
+            <lg>
+               <l>
+                  <hi>P</hi>rime Poëtarum, praeclarâ gente <hi>Frohockâ</hi>
+               </l>
+               <l>
+                  <hi>E</hi>dite, major <hi>avis,</hi> nobis data veſtra fuere</l>
+               <l>
+                  <hi>Tunbrigiae</hi> ad Fontem miranda Poëmata, necnon</l>
+               <l>
+                  <hi>R</hi>eplerunt vacuam ſummâ dulcedine mentem:</l>
+               <l>
+                  <hi>V</hi>erùm conanti condigna rependere, non mî</l>
+               <l>
+                  <hi>S</hi>ufficiunt, eheu! vires: (quid enim irrita tardo</l>
+               <l>
+                  <hi>C</hi>um genio doctrina poteſt?) non divite venâ</l>
+               <l>
+                  <hi>A</hi>dverſans <hi>Natura</hi> beat; non <hi>Muſa</hi> frequenti</l>
+               <l>
+                  <hi>V</hi>oto ſollicitata favet; tum mitior adſit</l>
+               <l>
+                  <hi>S</hi>i nobis, haud digna queam: tamen uſque refectus</l>
+               <l>
+                  <hi>T</hi>anti Fontis aquis iterum tentabo, voluntas</l>
+               <l>
+                  <hi>O</hi>bſecro, quae deſunt, veſtra in me ſuppleat aequa,</l>
+               <l>
+                  <hi>N</hi>ec malè tornatum contemnat carmen amici.</l>
+            </lg>
+            <lg>
+               <l>Quidnam agimus rogitas, quânam fulti arte, jocoſi</l>
+               <l>Ac hilares tempus conſumimus, improba mentem</l>
+               <l>Num cura invadat, tueamur corpora, dirum</l>
+               <l>Triſtitiae virus pellamus; quomodo chara</l>
+               <l>Et domus, &amp; conjux, &amp; nata, &amp; filius abſens</l>
+               <l>Non animum turbent, quaeſitaque gaudia rumpant.</l>
+               <l>Tu tandem fautrix adſis mihi <hi>Muſa</hi> canenti,</l>
+               <l>Deſque haec ut valeam jucundo dicere verſu.</l>
+            </lg>
+            <lg>
+               <l>Mox ubi grata quies laſſos reparaverit artus,</l>
+               <l>Et triſti pulsâ caligine noctis opacae</l>
+               <pb n="2" facs="tcp:105550:3"/>
+               <l>Oſtentat lucem rubicunda <hi>Aurora,</hi> comamque</l>
+               <l>Splendentem <hi>Phoebus</hi> referens illuxerit orbi,</l>
+               <l>Ad Fontem lento gradimur pede; ſaxa nec ignes</l>
+               <l>Obſtant, procedo tabaco nam fortior hauſto.</l>
+               <l>Confeſtim advolitat quae pocula porrigat ultrò</l>
+               <l>Plena perennis aquae, quam fons ſine munere donat,</l>
+               <l>Qualem nec <hi>Latium</hi> novit, nec <hi>Graecia</hi> jactat:</l>
+               <l>Illa beat ſiccos faecundâ ſtirpe parentes,</l>
+               <l>Deciduumque facit poſt funera vivere nomen,</l>
+               <l>Illa domat Febres, &amp; ſi malè calculus haerens</l>
+               <l>Renibus aut peni languentia viſcera torquet,</l>
+               <l>Illa fugat, pellit curas, &amp; nubila menti</l>
+               <l>Diſcutiens aptat doctis, ſacratque <hi>Camoenis.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>☞ Atra (olim) Bilis, Febriumque per intima graſſans</l>
+               <l>Oſſa cohors, craſſoque obſtrictis ſanguine venis,</l>
+               <l>Viſcera, cor, ſtomachum invadens arcemque cerebri,</l>
+               <l>Me exanimem, penè ad <hi>Stygias</hi> detruſerat undas:</l>
+               <l>Accurrunt Medici, feſtinat Pharmacopolae</l>
+               <l>Tota taberna, ruunt conjunctis viribus acres</l>
+               <l>In lethale agmen, rident Biliſque Febreſque</l>
+               <l>Conatus, vanaſque minas, &amp; cedere nolunt:</l>
+               <l>Genua labant, gelido divulſum membra tremore</l>
+               <l>Mors properata manet, nec ſpeserat ulla renaſci,</l>
+               <l>Ni tua Lympha, favente Deo, Fons, fuderat hoſtes,</l>
+               <l>Morbiſque &amp; leto ereptum ſervârat amicis.</l>
+               <l>O Fons nulli impar! meritos tibi condere honores</l>
+               <l>Quis par eſſe queat? tua laus (ſi carmina noſtra</l>
+               <l>Digna legi fuerint, nec edax aboleverit aetas)</l>
+               <l>Vivet in aeternùm, nullis ignota <hi>Britannis.</hi>]</l>
+            </lg>
+            <lg>
+               <l>Hos inter calices, per amaenas arboris umbras</l>
+               <l>Hinc illinc patulos jactantis in aëra crines</l>
+               <l>Uſque vagor, poſſim ut gelidos tolerare liquores:</l>
+               <l>Migrâſſe huc jures <hi>Venerem Nymphaſque Brittannas,</hi>
+               </l>
+               <pb n="3" facs="tcp:105550:3"/>
+               <l>Mire argentatâ ſplendentes corpora veſte,</l>
+               <l>Captatum inſolito juveneſque viroſque nitore:</l>
+               <l>Inceſſus ſtupeas verecundos, corporum honores,</l>
+               <l>Divinas facies, multo fulgentia colla</l>
+               <l>Auròque &amp; gemmis, quae vel dedit <hi>India</hi> dives,</l>
+               <l>Vel cautus tulit <hi>Afrorum</hi> Mercator ab oris.</l>
+               <l>Non aliter, <hi>Paride</hi> &amp; <hi>Graiis</hi> comitata puellis,</l>
+               <l>
+                  <hi>Tyndaris</hi> ad <hi>Phrygias</hi> fertur ſpatiata carinas.</l>
+               <l>Dumque vagi circumferimur, vel tibia melos</l>
+               <l>Grande ſonat, fidibuſve implentur mollibus aures;</l>
+               <l>Harmonicâ ad chordas reſonante per aêra voce.</l>
+               <l>Utque Deus faveat, media inter pocula ritè</l>
+               <l>Sacra Deo facimus; quippe hîc poſuere Sacellum</l>
+               <l>Nuper Hydropotae: nec ſpernitur herba tabaccum,</l>
+               <l>Vertitur in fumum in ſelectis aedibus, arctis</l>
+               <l>Hauſta tubis, ſtomachi ſedans accenſa tumultus.</l>
+            </lg>
+            <lg>
+               <l>Hîc garrire vacat, ſophiae alter, ſuſtinet alter</l>
+               <l>Legumque &amp; juris partes, hic relligionis</l>
+               <l>Bella movet fervens, lepidus quis narrat aniles</l>
+               <l>Fabellas, alius, quota jam hora eſt? anne meatu</l>
+               <l>Lympha fluit facili? profluxit copia quanta?</l>
+               <l>Dic ſodes: O te felicem! nonne tabellae</l>
+               <l>
+                  <hi>Londino</hi> heſternae quicquam? quas <hi>Gallicus</hi> urbes</l>
+               <l>
+                  <hi>Rex</hi> crebis cepit bellis? quid ſi arma moveret</l>
+               <l>Rurſus? an <hi>Hiſpanum</hi> &amp; <hi>Belgas</hi> cum <hi>Caeſare</hi> &amp; <hi>Anglis</hi>
+               </l>
+               <l>Siſtere poſſe putas? nobis <hi>Hungaria</hi> quidnam?</l>
+               <l>Chriſtiades-ne <hi>Budâ</hi> potiuntur? quidve <hi>Polonus</hi>
+               </l>
+               <l>Rerum agit? aut <hi>Venetus?</hi> dic, O bone, nupera quaſnam</l>
+               <l>Tempeſtas valuit ſaxis illidere puppes?</l>
+               <l>Proh dolor! an tantis fera ſaeviit unda ruinis?</l>
+               <l>Dum fumum &amp; linguas exercent labitur hora.</l>
+            </lg>
+            <lg>
+               <l>Sunt quos, inter aquas, fallax excuſſa fritillo</l>
+               <l>Alea, &amp; incerti ludens ſpes anxia lucri,</l>
+               <pb n="4" facs="tcp:105550:4"/>
+               <l>Heu! perdit, ſpoliatque paternis turpiter agris:</l>
+               <l>Sed me a fundivorâ ſervas Deus alte <hi>Charybdi.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>* Ipſe inter chordas &amp; pocula curo culinae,</l>
+               <l>Ne bella indicat venter mihi triſtia latrans;</l>
+               <l>Dantur ad hoſpitium nam nulla obſonia venum.</l>
+               <l>Imâ valle jacet prope Fontem longa patenti</l>
+               <l>Arbore planities circumdata, maxima quà pars</l>
+               <l>Potantum (dum plectra movent, Lymphaſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> miniſtrant)</l>
+               <l>Nunc huc, nunc illuc repetitis paſſibus errant:</l>
+               <l>Mercibus hîc dapibusque forum, quo vix datur ullum</l>
+               <l>Lautius, aut aequè felix emptore frequenti.</l>
+               <l>Huc <hi>Rija,</hi> quòque die, ſcombros, ſoleaſque, ſcaroſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan>
+               </l>
+               <l>Oſtreaque, &amp; cancros, conchas, rhomboſque ſalaces,</l>
+               <l>Piſcium &amp; omne genus, quos unda <hi>Britannica</hi> nutrit,</l>
+               <l>Mittit ab Oceano; noctemque diemque fatigans</l>
+               <l>Ne vel tantillâ laedant putredine guſtum.</l>
+               <l>Gobio, mullus adeſt, anguilla, &amp; carpio, trutta,</l>
+               <l>Et perca, innumeras dat enim piſcina propinqua, &amp;</l>
+               <l>Flumina vicinos praeterlabentia campos.</l>
+               <l>Nec lepus, aut porcellus abeſt, nec alauda, nec anſer,</l>
+               <l>Nec capo, nec perdix, nec verſicolor phaſianus.</l>
+               <l>Turdus, anas, paſſer, gallus, gall<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>a, columbus,</l>
+               <l>Et quam jam pridem nobis dedit <hi>Africa</hi> tellus,</l>
+               <l>Nunc ſeſe indigenam clamans, jucunda volucris,</l>
+               <l>Et variam omnigenis imitata coloribus <hi>Irim</hi>
+               </l>
+               <l>
+                  <hi>Argivae Junonis</hi> avis, cygnusque juventâ</l>
+               <l>Laudandus, paſſim proſtant; aviumque cohortes</l>
+               <l>Clarum triticeae donant queis nomen ariſtae.</l>
+               <l>Coelum iterùm (ut quondam) dicas pluviſſe volucres;</l>
+               <l>Uſque adeò, fora, pennigerûm crebra agmina denſant.</l>
+               <l>Quantâ ovis, aſſidúus, vitulique, agnique, boviſque,</l>
+               <l>Carne onerat lanius, ſole accedente, macellum</l>
+               <l>Natas eſcae herbas, quaſque alma <hi>Britannïa</hi> gignit</l>
+               <pb n="5" facs="tcp:105550:4"/>
+               <l>Fruges, aut ſtomachum quae condimenta labantem</l>
+               <l>Reſtituiſſe valent, varioque placere palato,</l>
+               <l>Seu ſale, ſeu valido condita requiris aceto?</l>
+               <l>Libum, aut ſcriblitas, aut qualeſcunque placentas,</l>
+               <l>Deliciaſve cupis? vaſta horum eſt copia, namque</l>
+               <l>Accola non dubitat confertim adferre colonus.</l>
+               <l>Zynziber, atque piper, quaeque <hi>Indus</hi> aromata uterque</l>
+               <l>Claſſe, novo Oceano, noſtras dimiſit ad oras,</l>
+               <l>Affluxere foro, quae gratum emittere odorem</l>
+               <l>Tuſa ſolent, ſuavemque cibis praeſtare ſaporem.</l>
+               <l>Mellitae cannae quem machina multa liquorem</l>
+               <l>Exp rimit arte novâ (crebrâ fornace recoctum,</l>
+               <l>Fictilibus teſtis ſiccatum, &amp; faece ſolutum)</l>
+               <l>
+                  <hi>Barbada</hi> &amp; <hi>Mevis</hi> tulit, &amp; longinqua <hi>Jamaica;</hi>
+               </l>
+               <l>Extortum baccis rarò fallentis olivae</l>
+               <l>Succum, multiplices uvas ardente refectas</l>
+               <l>So<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e, <hi>Adria;</hi> &amp; flavum <hi>Virginnia</hi> flava tabaccum;</l>
+               <l>
+                  <hi>Rhenus,</hi> &amp; <hi>Heſperiae,</hi> &amp; <hi>Teneriffa,</hi> &amp; <hi>Gallia</hi> vinum.</l>
+               <l>
+                  <hi>Londinum</hi> nequeat mage conſuluiſſe culinae,</l>
+               <l>Indomitaeque gulae. Vel perditus helluo caenam</l>
+               <l>Inſtruere, &amp; lautis aveat laxare ſaginis</l>
+               <l>Infamem ſtomachum; Non jam maria omnia circùm</l>
+               <l>Sollicitè, immenſo quaerenda cibaria ſumptu;</l>
+               <l>Ut fertur quondam feciſſe <hi>Vitellius,</hi> omnem</l>
+               <l>Qui non erubuit caenâ peſſundare fiſcum:</l>
+               <l>Una vel innumeras cumulet <hi>Tunbrigia</hi> menſas.</l>
+               <l>Aurea quis numeret? quis vaſa argentea? veſtes?</l>
+               <l>Lintea? reſque alias queis preſſa taberna laborat?</l>
+               <l>(Nam fora continuis ſtant circumſepta tabernis:)</l>
+               <l>Annua vix plures jactet <hi>Sturbrigia</hi> merces.]</l>
+            </lg>
+            <lg>
+               <l>Abſorptis de more ſcyphis, dapibuſque coëmptis,</l>
+               <l>Lentus ad hoſpitium redeo; hîc plerumque tabaccum</l>
+               <l>Otia odorifero fallit bene grata ſapore;</l>
+               <pb n="6" facs="tcp:105550:5"/>
+               <l>Prandia poſt paulò ſtomachus ſibi debita poſcit:</l>
+               <l>Tum vitulus, porcellus, avis, piſciſve, lepuſve</l>
+               <l>Languentes renovant vires, pingueſve bidentes:</l>
+               <l>Prandia laetificant vinum, conviva, jocuſque:</l>
+               <l>Sublatis properat quiſque ad nova gaudia menſis.</l>
+               <l>Si luſus cordi eſt, in promptu eſt ludere, ſiſtunt</l>
+               <l>Lignea mox ſimulachra novem, ſtant, ordine, terna,</l>
+               <l>Agmine quadrato, magno conamine certant</l>
+               <l>Quis globulo valeat ſubvertere plura rotando.</l>
+            </lg>
+            <lg>
+               <l>Eſt locus in ſummo <hi>Ruſthalli</hi> vertice montis</l>
+               <l>Aggere vallatus quadro, quem ceſpite multo</l>
+               <l>Undique congeſto planum fecere coloni;</l>
+               <l>Suntque alii ſimiles, ludis globuliſque dicati.</l>
+               <l>Lege aliâ mos eſt globulos hîc volvere, parvus</l>
+               <l>Projicitur primò, luſuris meta futurus,</l>
+               <l>Alea diſtinguit partes, tum quiſque duobus</l>
+               <l>Ad libitum electis, contendunt, poplite flexo,</l>
+               <l>Saepius &amp; propius quis metam accedere poſſit:</l>
+               <l>Tu nimis, haud ſatis ille fugit, tu parte ſiniſtrâ,</l>
+               <l>Erras tu dextrâ, ſed, Io! tu, mi bone, metam</l>
+               <l>Percutis, en! ipſam; quàm quàm bene dirigis; Io!</l>
+               <l>Non de baliſtâ nitrato pulvere jacta</l>
+               <l>Glans, non de <hi>Phrygio</hi> volitaverit aptius arcu,</l>
+               <l>Ad quemcunque ſcopum ſibi propoſuêre ſagitta.</l>
+            </lg>
+            <lg>
+               <l>Ludicrae alliciunt Chartae magis? en tibi praeſtò</l>
+               <l>Reges procedunt quatuor, totidem agmina multis</l>
+               <l>Denſa viris; acies magno molimine pugnae</l>
+               <l>Undique in arma ruunt; dubiis victoria pennis</l>
+               <l>Inter eas volitans, tandem, ſine vulnere, palmam</l>
+               <l>Nunc his nunc illis concedit partibus aequa.</l>
+            </lg>
+            <lg>
+               <l>† Sed cave ne inſano ludi capiaris amore:</l>
+               <l>Mille modis variant acies, mille artibus inter</l>
+               <l>Seſe belligerant miſeri, noctemque diei</l>
+               <pb n="7" facs="tcp:105550:5"/>
+               <l>Addunt, &amp; diris ſuperos manèſque laceſſunt,</l>
+               <l>Quum ſemel e Chartis lucri immoderata cupido</l>
+               <l>Faſcinat, heu! mentes; dum nummos, praedia, merces,</l>
+               <l>Aedeſque, ac animas malefido ingurgitat ore.</l>
+               <l>Non quòd ut illicitum damnem, modò nuda voluptas</l>
+               <l>Quaeratur, tantúmque animum relevare cadentem;</l>
+               <l>Si longè aufugiat nummi inſatiabilis ardor,</l>
+               <l>Et tempus timeas nimio diſperdere ludo,</l>
+               <l>Tempus non auro aut ullis reparabile gemmis.]</l>
+            </lg>
+            <lg>
+               <l>Sunt quibus unum opus eſt curas depellere ludo</l>
+               <l>Qui <hi>Cheſs</hi> vulgò audit; deſcenditur ocyus armis</l>
+               <l>In campum infeſtis pictum; Rex albus &amp; ater</l>
+               <l>Quiſque acies ſimiles ſibi ducunt: Uxor utriſque</l>
+               <l>Haeret, Regi quaeque ſuo; comitantur utraſque</l>
+               <l>Bini equites, duplex elephas, &amp; Epiſcopus unus</l>
+               <l>Ac alter, pedites bis quattuor; impigri utrimque</l>
+               <l>Reges ſervare, aut triſti ſuccumbere fato.</l>
+               <l>Jamque dato ſigno concurrunt agmina bina,</l>
+               <l>Hinc atque hinc multae clades, ſtudet agmen utrumque</l>
+               <l>Captare oppoſitum Regem, palmamque referre:</l>
+               <l>Nam quamvis adverſa acies graſſetur, &amp; hoſtes</l>
+               <l>Multâ caede fuget campo, niſi callida Regem</l>
+               <l>Hoſtilem capiat, nullum feret inde Triumphum:</l>
+               <l>Quippe (hoc lex ludi antiqui luſoria poſcit)</l>
+               <l>Non niſi captivo paritur victoria Rege.</l>
+            </lg>
+            <lg>
+               <l>Sin <hi>Muſa</hi> arridet, profert ſua carmina <hi>Flaccus</hi>
+               </l>
+               <l>Divino laudanda ſtilo, ſeu quaeris amoris</l>
+               <l>Secretos penetrare dolos, formare Poëtam</l>
+               <l>Seu placet, aut gradier directo tramite, laetâ</l>
+               <l>Virtutis laudiſque viâ, quà <hi>Romulus</hi> ingens,</l>
+               <l>Quà <hi>Janus, Bacchuſque</hi> pater conſcendere ſedes</l>
+               <l>Aetherias valuêre, &amp; magna palatia Divûm;</l>
+               <pb n="8" facs="tcp:105550:6"/>
+               <l>Seu cupis inſulſos ſecli perſtringere mores:</l>
+               <l>Dogmata ſeu veterum gaudes haurire ſophorum.</l>
+            </lg>
+            <lg>
+               <l>Viſne animam ſacrare Deo? tibi Biblia Sacra</l>
+               <l>Pandentur, ſanam quae reddant corpore mentem:</l>
+               <l>Perdiſcas illic, ut captus imagine veri</l>
+               <l>Primus quivit homo culpâ vitiare nepotes,</l>
+               <l>Et morti humanam aeternae ſubmittere gentem;</l>
+               <l>Morte ſuâ ut <hi>Chriſtus Satanae</hi> exſtirpârit amarum</l>
+               <l>Imperium, &amp; mortis ſtimulos hebetaverit, ut non</l>
+               <l>Chriſticolas laedant veros; hinc gratia ſummi</l>
+               <l>Admiranda Dei manans, diri agmina vaſta</l>
+               <l>Peccati fundit, caeli nos arcibus altis</l>
+               <l>Figit, &amp; amiſſam dat perpetuatque ſalutem.</l>
+               <l>Illinc noſſe queas, laqueo irretire doloſos</l>
+               <l>Ut valeat, populoſque unco fraenare rebelles,</l>
+               <l>Ne quando electam poſſint evertere gentem;</l>
+               <l>Gloria quò Nomenque Dei clareſcat in horas.</l>
+            </lg>
+            <lg>
+               <l>Adveniat nobis olim dilectus amicus,</l>
+               <l>Multa ſtatim produnt generoſi vaſcula vini:</l>
+               <l>Sume puer cyathos puroque repleto falerno,</l>
+               <l>Charus amicus adeſt, juvat evacuaſſe, precantes</l>
+               <l>Regis, Reginae, Procerum, noſtramque ſalutem.</l>
+               <l>Quò, quò <hi>Bacche</hi> rapis? quid non tua munera cogunt?</l>
+               <l>Tu rixas, tu laetitiam, tu promis amores,</l>
+               <l>Poſt te nec carcer, nec mors, nec ſqualida terret</l>
+               <l>Paupertas, poſſunt nec curae avertere ſomnum.</l>
+            </lg>
+            <lg>
+               <l>Sol medium emenſus curſum ſenſimque recedens</l>
+               <l>Hortetur campos, abeunte calore, petendos:</l>
+               <l>Nunc equitare lubet, nunc parvum forte pedeſtre</l>
+               <l>Carpere iter, varios vel in hortis nectere flores:</l>
+               <l>Cantus avis tremulus ſylvis, vel aperta locorum</l>
+               <l>Delectant, vel ferre pedes quà retia tendit</l>
+               <l>Venator lepori, vel quà bene callidus auceps</l>
+               <pb n="9" facs="tcp:105550:6"/>
+               <l>Inſidias avibus ſtruxit: nunc praelia ſaevi</l>
+               <l>Accipitris ſpectanda vocant; ille aëra circùm</l>
+               <l>Intrepidè purum volitans, atque ima tumeſcens</l>
+               <l>Irâ corda truci, fugientes praepete pennâ</l>
+               <l>Inſectatur aves, &amp; prono corpore terrae</l>
+               <l>Unguibus infigit laceris, roſtroque tenaci:</l>
+               <l>Sic denſum per ovile rapacibus unguibus atrox</l>
+               <l>Innocuas leo mactat oves: nunc tendimus altas</l>
+               <l>Ad ripas, longâ meditamur arundine piſces</l>
+               <l>Injecto eduxiſſe hamo, retìve latentes.</l>
+               <l>Nunc tenues properamus apes luſtrare, labore</l>
+               <l>Magno ponentes ſua tecta, alvearibus aptis,</l>
+               <l>Cerea, quae poſt melle onerent: hinc avocat ardens</l>
+               <l>Latrantum clamor, qui ſydera ſumma boatu</l>
+               <l>Concutit altiſono; ruit ingens agmine facto</l>
+               <l>Turba canum, laetis venantum hortatibus acta,</l>
+               <l>Seu leporem, cervumve, cavis, vulpemve doloſam</l>
+               <l>Sedibus excutiant, aſt hi per &amp; invia ſaxa,</l>
+               <l>Per montes pede veloci valleſque feruntur,</l>
+               <l>Et curſu certant hoſtes ſuperare feroces.</l>
+               <l>Abſcondit tectis hîc gramina ſicca colonus,</l>
+               <l>Illic fructiferam perfringit vomere terram,</l>
+               <l>Semen ut inſpergat latè: nunc robora caedunt</l>
+               <l>
+                  <hi>Londinum</hi> portanda viri, quibus ardua tantae</l>
+               <l>Tecta urbis condant, aut aequora claſſibus ornent.</l>
+            </lg>
+            <lg>
+               <l>Nec perit ulla dies, quin, accreſcentibus umbris,</l>
+               <l>Pulchra puellarum pueris immixta caterva,</l>
+               <l>(Undique ſpectantum Procerum cingente coronâ,)</l>
+               <l>Alterno terram quatiant pede; dum fide doctâ</l>
+               <l>Ad normam motus coguntur, vel ſuper altum</l>
+               <l>
+                  <hi>Ruſthalli</hi> montem, vel quà clariſſima villa</l>
+               <l>Auſtralem aſpiciens ſolem tua ſylvula frondet;</l>
+               <l>Vel quà, <hi>Bickerſtaffe,</hi> arbor tua plurima ferro</l>
+               <pb n="10" facs="tcp:105550:7"/>
+               <l>Eruta planitiemque &amp; tecta recentia praebet.</l>
+               <l>Sic <hi>Haemo</hi> in celſo, <hi>Pindique</hi> in vertice, plectro</l>
+               <l>Virgineos agitaſſe choros blandum <hi>Orphea</hi> narrant.</l>
+            </lg>
+            <lg>
+               <l>Tandem grata quies quae corpora feſſa vagando</l>
+               <l>Inſtauret petitur; tum rhonciſſare paratum</l>
+               <l>Me placidis immergo toris, ſomnoque ſepultum</l>
+               <l>Laeta quies recreat: quum verò craſtina nobis</l>
+               <l>
+                  <hi>Aurora</hi> attulerit lucem, non ulla laborum</l>
+               <l>Taedia menti haerent; iterumque iterumque peractis</l>
+               <l>Fallimus, eu! tempus fugiens; curiſque peculî</l>
+               <l>Proſcriptis, hilarem conamur vivere vitam.</l>
+               <l>Sic variis animum ſtudiis <hi>Tunbrigia</hi> mulcet,</l>
+               <l>Ut vix abſentes poſſim lugere <hi>Penates.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Sed quò <hi>Muſa</hi> trahis? nonne audis murmure quanto</l>
+               <l>Vatum turba fremant operam quid ſumis inanem?</l>
+               <l>Quin potius properè ad merces, ad rem faciendam</l>
+               <l>Mercatorem abigas, audacem Sacra profanâ</l>
+               <l>Pieridum temerare manu, nullis adeunda</l>
+               <l>Quàm quibus indulgens <hi>Natura</hi> &amp; fautor <hi>Apollo</hi>
+               </l>
+               <l>Doctorum adſcriptis albo, dedit eſſe poëtas:</l>
+               <l>Tolle moras, longùmque, <hi>Frohock</hi> dic, vive, valeque.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:105550:7"/>
+         </div>
+      </body>
+   </text>
+</TEI>
